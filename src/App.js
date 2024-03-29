@@ -1,4 +1,5 @@
 import "./App.css";
+import Menu from "./components/Menu";
 import Navbar from "./components/Navbar";
 import Topbar from "./components/Topbar";
 
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       <Topbar />
       <Navbar />
+      <Menu />
     </div>
   );
 }
