@@ -2,6 +2,7 @@ import "./App.css";
 import Banner from "./components/Banner";
 import Menu from "./components/Menu";
 import Navbar from "./components/Navbar";
+import ServiceAlert from "./components/ServiceAlert";
 import Topbar from "./components/Topbar";
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Navbar />
       <Menu />
       <Banner />
+      <ServiceAlert isMobile={true} />
     </div>
   );
 }
