@@ -10,7 +10,7 @@ import { LuFerrisWheel } from "react-icons/lu";
 const Features = () => {
   return (
     <div id="feature">
-      <div className="flex flex-col mx-auto xl:max-w-screen-2xl md:flex-row px-0 xl:px-36">
+      <div className="flex flex-col mx-auto xl:max-w-screen-2xl md:flex-row px-0 xl:px-28">
         <div class="p-6 md:w-[50%]">
           <a href="#">
             <h5 class="mb-2 text-[28px] md:text-[45px] text-center md:text-left font-bold tracking-tight text-primary">
