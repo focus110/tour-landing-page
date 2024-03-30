@@ -2,8 +2,10 @@ import React from "react";
 
 const Menu = () => {
   return (
-    <nav class="hidden md:block bg-dark-red border-gray-200">
-      <div class="flex flex-wrap items-center justify-between max-w-screen-xl mx-auto p-4">
+    <nav class="hidden md:block bg-dark-red border-gray-200 shadow-xl relative z-[1]">
+      <div class="flex flex-wrap items-center justify-between max-w-screen-2xl mx-auto p-3 px-4 md:px-16">
+        <div></div>
+        <div></div>
         <div class="flex items-center md:order-2 space-x-1 md:space-x-2 rtl:space-x-reverse">
           <a
             href="#"
@@ -11,7 +13,6 @@ const Menu = () => {
           >
             BUY TICKETS
           </a>
-         
         </div>
         <div
           id="mega-menu"
